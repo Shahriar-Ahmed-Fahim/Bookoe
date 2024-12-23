@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookoe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:slnt@-11..11&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.webp" alt="logo">
+                </a>
+
+                <form class="navbar-form">
+                    <div class="input-group">
+                        <div class="input-group-text" id="basic-addon1">
+                            <span class="menu">
+                                <i class="fa-solid fa-table-cells-large"></i>
+                                Menu <i class="fa-solid fa-angle-down angle"></i>
+                            </span>
+
+                            <ul class="menu-items">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search over 30 million book titles"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                        <span class="input-group-text search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </form>
+
+                <div class="btns">
+                    <button class="login">Log In</button>
+                    <button class="register"><i class="fa-regular fa-user"></i>Sign Up</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Section -->
+        <section id="banner">
+            <div class="container">
+                <div class="row flex-nowrap">
+                    <div class="col-lg-9">
+                        <!-- Carousel -->
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="#"><img src="./images/mainbanner.webp" class="d-block w-100"
+                                            alt="banner-image-1"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#"><img src="./images/mainbanner.webp" class="d-block w-100"
+                                            alt="banner-image-2"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#"><img src="./images/mainbanner.webp" class="d-block w-100"
+                                            alt="banner-image-3"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#"><img src="./images/mainbanner.webp" class="d-block w-100"
+                                            alt="banner-image-4"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="main-div">
+                            <h2 class="title">Best Seller</h2>
+                            <p class="description">Based sales this week</p>
+
+                            <!-- Carousel -->
+                            <div id="carouselExample" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="#"><img src="./images/banner_image_2.webp" class="d-block w-100"
+                                                alt="banner-image-5"></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#"><img src="./images/banner_image_2.webp" class="d-block w-100"
+                                                alt="banner-image-6"></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#"><img src="./images/banner_image_2.webp" class="d-block w-100"
+                                                alt="banner-image-7"></a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+
+                            <h4>Pushing Clouds</h2>
+                                <p class="categories">ADVANTURE, SCIENCE, COMEDY</p>
+
+                                <div class="pricing">
+                                    <p>
+                                        <span class="cross"><del>60.00</del></span>
+                                        <span class="new">USD 45.25</span>
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="icons-wrapper">
+                    <div class="item">
+                        <div class="banner-icon">
+                            <img src="./images/banner_icon_1.webp" alt="banner_icon_1">
+                        </div>
+                        <div>
+                            <h4 class="title">Quick Delivery</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banner-icon">
+                            <img src="./images/banner_icon_2.webp" alt="banner_icon_2">
+                        </div>
+                        <div>
+                            <h4 class="title">Secure Payment</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banner-icon">
+                            <img src="./images/banner_icon_3.webp" alt="banner_icon_3">
+                        </div>
+                        <div>
+                            <h4 class="title">Best Quality</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banner-icon">
+                            <img src="./images/banner_icon_4.webp" alt="banner_icon_4">
+                        </div>
+                        <div>
+                            <h4 class="title">Return Guarantee</h4>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Promotion & Branding -->
+        <section id="promotion">
+            <div class="container">
+                <div class="row branding">
+                    <!-- Carousel -->
+                    <div class="col-lg-6 first-carousel">
+                        <div class="item">
+                            <h3 class="title">Recommended For You</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="img-wrapper">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="img-wrapper">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="img-wrapper">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 second-carousel">
+                        <div class="item">
+                            <h3 class="title">Popular in 2020</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="img-wrapper">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="img-wrapper">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="img-wrapper">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                            <img src="./images/placeholder.webp" class="d-block" alt="placeholder">
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Offers Section -->
+        <section id="offers">
+            <div class="container">
+                <h2 class="title">Special Offers</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="wrapper">
+                    <!-- Card - 1 -->
+                    <div class="card">
+                        <img src="./images/offer_image.webp" class="card-img-top" alt="offer_image">
+                        <div class="card-body">
+                            <h5 class="card-title">SECONDS [Part I]</h5>
+                            <div class="category">
+                                <p class="item">BIOGRAPHY</p>
+                                <p class="item">HORROR</p>
+                                <p class="item">THRILLER</p>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris </p>
+                            <p class="name">Kevin Smilley</p>
+                            <div class="pricing">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                                <p class="price"><span class="new">$18,78</span><span class="cross">$25</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card - 2 -->
+                    <div class="card">
+                        <img src="./images/offer_image.webp" class="card-img-top" alt="offer_image">
+                        <div class="card-body">
+                            <h5 class="card-title">Terrible Madness</h5>
+                            <div class="category">
+                                <p class="item">BIOGRAPHY</p>
+                                <p class="item">HORROR</p>
+                                <p class="item">THRILLER</p>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris </p>
+                            <p class="name">David Here</p>
+                            <div class="pricing">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                                <p class="price"><span class="new">$18,78</span><span class="cross">$25</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card - 3 -->
+                    <div class="card">
+                        <img src="./images/offer_image.webp" class="card-img-top" alt="offer_image">
+                        <div class="card-body">
+                            <h5 class="card-title">REWORK</h5>
+                            <div class="category">
+                                <p class="item">BIOGRAPHY</p>
+                                <p class="item">HORROR</p>
+                                <p class="item">THRILLER</p>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris </p>
+                            <p class="name">Margaretha Helew</p>
+                            <div class="pricing">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i>Add to cart</a>
+                                <p class="price"><span class="new">$18,78</span><span class="cross">$25</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrows text-center d-flex justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flash Sale Section -->
+        <section id="sale">
+            <div class="container">
+                <h2 class="title">Flash Sale</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+
+                <!-- Time -->
+                <div class="time-wrapper d-flex justify-content-evenly">
+                    <div class="d-flex align-items-center flex-column">
+                        <h2>02</h2>
+                        <p>Day</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <h2>05</h2>
+                        <p>Hours</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <h2>42</h2>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="d-flex align-items-center flex-column">
+                        <h2>19</h2>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div class="card-wrapper d-flex justify-content-between">
+                    <!-- Card - 1 -->
+                    <div class="card" style="width: 229px;">
+                        <img src="./images/sale_card.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">SECONDS</h5>
+                            <p class="card-text">THRILLER</p>
+
+                            <div class="pricing">
+                                <p><span class="new">$ 54.78</span><span class="cross"><del>$70.00</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card - 2 -->
+                    <div class="card" style="width: 229px;">
+                        <img src="./images/sale_card.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">REWORK</h5>
+                            <p class="card-text">DRAMA, BIOGRAPHY</p>
+
+                            <div class="pricing">
+                                <p><span class="new">$ 34.56</span><span class="cross"><del>$50.00</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card - 3 -->
+                    <div class="card" style="width: 229px;">
+                        <img src="./images/sale_card.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Such a Fun Age</h5>
+                            <p class="card-text">THRILLER</p>
+
+                            <div class="pricing">
+                                <p><span class="new">$ 14.56</span><span class="cross"><del>$20.00</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card - 4 -->
+                    <div class="card" style="width: 229px;">
+                        <img src="./images/sale_card.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Emily and The Back..</h5>
+                            <p class="card-text">DRAMA, BIOGRAPHY</p>
+
+                            <div class="pricing">
+                                <p><span class="new">$ 76.12</span><span class="cross"><del>$99.00</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card - 5 -->
+                    <div class="card" style="width: 229px;">
+                        <img src="./images/sale_card.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Battle Drive</h5>
+                            <p class="card-text">DRAMA, BIOGRAPHY</p>
+
+                            <div class="pricing">
+                                <p><span class="new">$ 76.12</span><span class="cross"><del>$99.00</del></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Sale Section -->
+        <section id="book">
+            <div class="container">
+                <h2 class="title">Books on Sale</h2>
+
+
+                <!-- Carousel -->
+                <div id="carouselExampleIndicators4" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="image">
+                                        <div>
+                                            <img src="./images/books_image.webp" class="d-block" alt="...">
+                                        </div>
+                                        <div class="discount">
+                                            <p>50%</p>
+                                        </div>
+                                    </div>
+                                    <div class="info">
+                                        <h4>The Missadventure of..</h4>
+                                        <p>ADVANTURE, SURVIVAL</p>
+                                        <div class="price-rating d-flex align-items-center justify-content-between">
+                                            <p class="rating"><i class="fa-solid fa-star"></i>4.7</p>
+                                            <p class="price"><span class="new">$45.4</span><span class="cross">$98.4</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                        data-bs-slide="prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                        data-bs-slide="next">
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

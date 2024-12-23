@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 575px){
+    nav .navbar-brand img{
+        max-width: 120px;
+    }
+    nav .input-group{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
