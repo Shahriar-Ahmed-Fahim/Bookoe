@@ -548,11 +548,13 @@ nav .input-group-text:hover .menu-items {
 }
 
 #sale .time-wrapper {
-    max-width: 505px;
+    column-gap: 60px;
+    width: fit-content;
     border-radius: 14px;
     border: 1px solid #F0EEFF;
-    margin: 0 auto;
-    margin-top: 5px;
+    margin: 0 auto ;
+    margin-top: 30px;
+    padding: 20px 60px 13px;
 }
 
 #sale .time-wrapper h2 {
@@ -623,6 +625,7 @@ nav .input-group-text:hover .menu-items {
 /* ----Book Sale Section---- */
 #book {
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 #book .title {
@@ -637,7 +640,7 @@ nav .input-group-text:hover .menu-items {
 }
 
 #book .carousel-indicators {
-    top: -30px;
+    top: -70px;
     left: 86%;
     margin-right: 0;
     margin-bottom: 0;
@@ -752,77 +755,11 @@ nav .input-group-text:hover .menu-items {
     height: 32px;
     border-radius: 50%;
     background: #F0EEFF;
-    top: -40px;
+    top: -80px;
 }
 
 #book .carousel-control-prev i,
 #book .carousel-control-next i {
     color: #6C5DD3;
     font-size: 20px;
-}
-
-/* ----Media Query---- */
-@media screen and (max-width: 576px) {
-    nav .btns {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .navbar-form {
-        min-width: 100%;
-    }
-
-    #banner .icons-wrapper {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    nav .btns {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .navbar-form {
-        min-width: 100%;
-    }
-
-    #banner .icons-wrapper {
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        row-gap: 15px;
-        align-items: center;
-    }
-
-    /* #offers .wrapper {
-        flex-direction: column;
-        align-items: center;
-    } */
-}
-
-@media screen and (max-width: 992px) {
-    #banner .row {
-        margin-top: 30px;
-        gap: 20px;
-    }
-
-    #offers .wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-    .navbar>.container,
-    .navbar>.container-fluid,
-    .navbar>.container-lg,
-    .navbar>.container-md,
-    .navbar>.container-sm,
-    .navbar>.container-xl,
-    .navbar>.container-xxl {
-        justify-content: space-between;
-        /* gap: 30px; */
-    }
 }
